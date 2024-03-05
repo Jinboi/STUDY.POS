@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj": {}
+    "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj": {
+    "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
+        "projectUniqueName": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
         "projectName": "CoffeeShop.PointOfSale.EntityFramework",
-        "projectPath": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
+        "projectPath": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
         "packagesPath": "C:\\Users\\yjin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\obj\\",
+        "outputPath": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yjin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.48.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
