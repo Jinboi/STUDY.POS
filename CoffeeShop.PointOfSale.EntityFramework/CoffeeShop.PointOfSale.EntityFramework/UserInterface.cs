@@ -1,4 +1,5 @@
 ﻿using CoffeeShop.PointOfSale.EntityFramework.Models;
+using CoffeeShop.PointOfSale.EntityFramework.Services;
 using Spectre.Console;
 using static CoffeeShop.PointOfSale.EntityFramework.Enums;
 
@@ -15,6 +16,7 @@ static internal class UserInterface
                 new SelectionPrompt<MenuOptions>()
                 .Title("What would you like to do?")
                 .AddChoices(
+                    MenuOptions.AddCategory,
                     MenuOptions.AddProduct,
                     MenuOptions.DeleteProduct,
                     MenuOptions.UpdateProduct,
@@ -23,6 +25,9 @@ static internal class UserInterface
 
             switch (option)
             {
+                case MenuOptions.AddCategory:
+                    CategoryService.InsertCategory();
+                    break;
                 case MenuOptions.AddProduct:
                     ProductService.InsertProduct();
                     break;

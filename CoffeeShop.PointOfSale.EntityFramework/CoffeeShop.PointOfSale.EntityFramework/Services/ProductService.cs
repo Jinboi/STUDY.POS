@@ -1,7 +1,7 @@
 ﻿using CoffeeShop.PointOfSale.EntityFramework.Models;
 using Spectre.Console;
 
-namespace CoffeeShop.PointOfSale.EntityFramework;
+namespace CoffeeShop.PointOfSale.EntityFramework.Services;
 internal class ProductService
 {
     internal static void InsertProduct()
