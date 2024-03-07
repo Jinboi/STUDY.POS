@@ -1,5 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-    
+﻿using CoffeeShop.PointOfSale.EntityFramework.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace CoffeeShop.PointOfSale.EntityFramework;
 internal class ProductsContext: DbContext
 {
