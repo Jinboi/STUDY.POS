@@ -2,7 +2,7 @@
   "profiles": {
     "CoffeeShop.PointOfSale.EntityFramework": {
       "commandName": "Project",
-      "workingDirectory": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework"
+      "workingDirectory": "C:\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework"
     }
   }
 }

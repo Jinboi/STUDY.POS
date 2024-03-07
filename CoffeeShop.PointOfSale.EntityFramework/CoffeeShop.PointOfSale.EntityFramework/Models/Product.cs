@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CoffeeShop.PointOfSale.EntityFramework.Models;
 
@@ -17,5 +18,7 @@ internal class Product
 
     public int CategoryId { get; set; }
 
+    [ForeignKey(nameof(CategoryId))]
+    public Category Category { get; set; }
 
 }
