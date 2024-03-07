@@ -4,6 +4,7 @@ internal class Enums
     internal enum MenuOptions
     {
         AddCategory,
+        ViewAllCategories,
         AddProduct,
         DeleteProduct,
         UpdateProduct,

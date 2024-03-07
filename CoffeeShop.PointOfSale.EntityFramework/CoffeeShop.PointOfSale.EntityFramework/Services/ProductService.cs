@@ -10,6 +10,7 @@ internal class ProductService
         var product = new Product();
         product.Name = AnsiConsole.Ask<string>("Product's name:");
         product.Price = AnsiConsole.Ask<decimal>("Product's price:");
+        product.CategoryId = CategoryService.GetCategoryOptionInput();
 
         ProductController.AddProduct(product);
     }

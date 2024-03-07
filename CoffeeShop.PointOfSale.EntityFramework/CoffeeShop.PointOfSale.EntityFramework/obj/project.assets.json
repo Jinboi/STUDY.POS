@@ -2603,24 +2603,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\duddn\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\yjin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
+      "projectUniqueName": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
       "projectName": "CoffeeShop.PointOfSale.EntityFramework",
-      "projectPath": "C:\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
-      "packagesPath": "C:\\Users\\duddn\\.nuget\\packages\\",
-      "outputPath": "C:\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\obj\\",
+      "projectPath": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework.csproj",
+      "packagesPath": "C:\\Users\\yjin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yjin\\OneDrive - soprema\\Documents\\MEGA\\WIP\\02-GitWIP\\STUDY.POS\\CoffeeShop.PointOfSale.EntityFramework\\CoffeeShop.PointOfSale.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\duddn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\yjin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2628,7 +2623,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2682,7 +2676,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
