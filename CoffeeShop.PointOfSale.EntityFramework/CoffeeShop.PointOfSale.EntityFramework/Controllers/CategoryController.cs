@@ -1,4 +1,5 @@
 ﻿using CoffeeShop.PointOfSale.EntityFramework.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CoffeeShop.PointOfSale.EntityFramework.Controllers;
 
@@ -37,7 +38,9 @@ internal class CategoryController
     {
         using var db = new ProductsContext();
 
-        var categories = db.Categories.ToList();
+        var categories = db.Categories
+            .Include(x => x.Products)
+            .ToList();
 
         return categories;
     }
