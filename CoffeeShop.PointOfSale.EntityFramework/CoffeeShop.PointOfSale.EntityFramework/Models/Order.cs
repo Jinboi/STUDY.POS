@@ -6,7 +6,7 @@ internal class Order
 
     public decimal TotalPrice { get; set; }
 
-    public DateTime CreateDate { get; set; }
+    public DateTime CreatedDate { get; set; }
 
     public ICollection<OrderProduct> OrderProducts { get; set; }
 

@@ -52,7 +52,7 @@ internal class ProductService
         ProductController.UpdateProduct(product);
 
     }
-    static private Product GetProductOptionInput()
+    static internal Product GetProductOptionInput()
     {
         var products = ProductController.GetProducts();
         var productsArray = products.Select(x => x.Name).ToArray();
