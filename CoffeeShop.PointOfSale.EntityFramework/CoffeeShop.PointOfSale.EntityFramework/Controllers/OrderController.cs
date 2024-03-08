@@ -14,4 +14,17 @@ internal class OrderController
 
         db.SaveChanges();
     }
+
+    internal static List<Order> GetOrders()
+    {
+        using var db = new ProductsContext();
+
+        var ordersList = db.Orders
+            .Include(o => o.OrderProducts)
+            .ThenInclude(op => op.Product)
+            .ThenInclude(p => p.Category)
+            .ToList();
+
+        return ordersList;
+    }
 }
