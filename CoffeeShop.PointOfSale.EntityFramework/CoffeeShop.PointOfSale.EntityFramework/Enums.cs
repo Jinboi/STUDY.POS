@@ -7,6 +7,7 @@ internal class Enums
         ManageCategories,
         ManageProducts,
         ManageOrders,
+        GenerateReport,
         Quit
     }
 
@@ -33,6 +34,7 @@ internal class Enums
     {
         AddOrder,
         GetOrders,
+        GetOrder,
         GoBack
     }
 }

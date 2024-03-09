@@ -367,3 +367,8 @@ C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeSho
 C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\obj\Debug\net8.0\CoffeeShop.PointOfSale.EntityFramework.csproj.CopyComplete
 C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\obj\Debug\net8.0\CoffeeShop.PointOfSale.EntityFramework.genruntimeconfig.cache
 C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\obj\Debug\net8.0\ref\CoffeeShop.PointOfSale.EntityFramework.dll
+C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\MEGA\WIP\02-GitWIP\STUDY.POS\CoffeeShop.PointOfSale.EntityFramework\CoffeeShop.PointOfSale.EntityFramework\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
